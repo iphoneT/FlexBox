@@ -1,0 +1,6 @@
+{
+    "git.pruneOnFetch": true,
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysSignOff": true,
+    "git.allowForcePush": true
+}
