@@ -16,7 +16,7 @@ class App extends React.Component {
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
         <View style={{ width:130,height:130, backgroundColor:'red'}} ></View>
         <View style={{ width:130,height:130, backgroundColor:'orange'}} ></View>
-        <View style={{ width:160,height:160, backgroundColor:'blue'}} ></View>
+        <View style={{ width:170,height:170, backgroundColor:'blue'}} ></View>
       </View>
     )
   }
