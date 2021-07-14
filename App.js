@@ -20,19 +20,25 @@ class App extends React.Component {
           flexDirection: 'column',
         }}>
         <View style={{width: 150, height: 130, backgroundColor: 'red'}} />
-        <View style={{width: 130, height: 140, backgroundColor: 'yellow'}}>
+        <View
+          style={{
+            width: '100%',
+            height: '40%',
+            backgroundColor: 'yellow',
+            justifyContent: 'center',
+          }}>
           <Image
             source={require('./images/a.jpeg')}
             style={{
-              width: 120,
-              height: 110,
+              width: '90%',
+              height: '90%',
               alignSelf: 'center',
-              resizeMode: 'center',
+              resizeMode: 'cover',
             }}
           />
         </View>
         <View style={{width: 200, height: 200, backgroundColor: 'blue'}}>
-        <Image source={require('./images/b.jpg')}/>
+          <Image source={require('./images/b.jpg')} />
         </View>
       </View>
     );
