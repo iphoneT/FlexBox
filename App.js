@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {View, Button, StyleSheet, Text, Image} from 'react-native';
+import { View, Button, StyleSheet, Text, Image } from 'react-native';
 
 class App extends React.Component {
   render() {
@@ -19,8 +19,8 @@ class App extends React.Component {
           justifyContent: 'space-between',
           flexDirection: 'column',
         }}>
-        <View style={{width: 150, height: 130, backgroundColor: 'red'}} />
-        <View style={{width: 130, height: 140, backgroundColor: 'yellow'}}>
+        <View style={{ width: 150, height: 130, backgroundColor: 'red' }} />
+        <View style={{ width: 130, height: 140, backgroundColor: 'yellow' }}>
           <Image
             source={require('./images/a.jpeg')}
             style={{
@@ -31,8 +31,8 @@ class App extends React.Component {
             }}
           />
         </View>
-        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}>
-        <Image source={require('./images/b.jpg')}/>
+        <View style={{ width: 200, height: 200, backgroundColor: 'blue' }}>
+          <Image source={require('./images/b.jpg')} />
         </View>
       </View>
     );
