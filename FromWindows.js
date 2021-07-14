@@ -6,6 +6,13 @@ class FromWindows extends React.Component {
     return (
       <View>
         <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
+        <Text>From Windows testing hello android</Text>
       </View>
     );
   }
