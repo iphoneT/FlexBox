@@ -7,11 +7,13 @@
  */
 
 import React from 'react';
-import {View, Button, StyleSheet, Text, Image} from 'react-native';
+import {View, SafeAreaView, StyleSheet, Text, Image} from 'react-native';
 
 class App extends React.Component {
   render() {
     return (
+      <SafeAreaView style={{ flex: 1 }}>
+      <View style={styles.container}> 
       <View
         style={{
           flexWrap: 'wrap',
@@ -71,11 +73,17 @@ class App extends React.Component {
           />
         </View>
       </View>
+      </View>
+      </SafeAreaView>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+  },
   ButtonStyle: {
     fontSize: 30,
     fontWeight: 'bold',
