@@ -42,7 +42,7 @@ class App extends React.Component {
               style={{
                 width: '100%',
                 flex: 1,
-                backgroundColor: 'orange',
+                backgroundColor: 'white',
                 justifyContent: 'center',
               }}>
               <Image
