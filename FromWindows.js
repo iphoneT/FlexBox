@@ -10,6 +10,7 @@ class FromWindows extends React.Component {
         <Text>Good Evening</Text>
 
         <Text>Good Night</Text>
+        <Text>PHP</Text>
       </View>
     );
   }
