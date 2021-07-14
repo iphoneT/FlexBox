@@ -14,7 +14,11 @@ class App extends React.Component {
   render() {
     return (
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
+<<<<<<< HEAD
       <Text>Test 20</Text>
+=======
+      <Text>Test 25</Text>
+>>>>>>> b71292acf6550ba4159b4b9cdc0197b64f88a65d
         <View style={{ width:150,height:130, backgroundColor:'red'}} ></View>
         <View style={{ width:130,height:130, backgroundColor:'orange'}} ></View>
         <View style={{ width:200,height:200, backgroundColor:'blue'}} ></View>
