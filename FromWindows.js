@@ -5,7 +5,7 @@ class FromWindows extends React.Component {
   render() {
     return (
       <View>
-        <Text>From Windows testing 12</Text>
+        <Text>From Windows testing 123</Text>
       </View>
     );
   }
