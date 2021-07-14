@@ -3,10 +3,10 @@ import { View,Button,StyleSheet } from 'react-native';
 
 class Mac extends React.Component {
 
-  render() { 
+  render() {
     return (
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
-        <Text>From Mac testing 111</Text>
+        <Text>From Mac testing 11111</Text>
       </View>
     )
   }
