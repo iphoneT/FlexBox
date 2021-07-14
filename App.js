@@ -7,26 +7,32 @@
  */
 
 import React from 'react';
-import { View,Button,StyleSheet } from 'react-native';
+import {View, Button, StyleSheet, Text} from 'react-native';
 
 class App extends React.Component {
-
-  render() { 
+  render() {
     return (
-      <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
-      <Text>App JS is Great1</Text>
-        <View style={{ width:150,height:130, backgroundColor:'red'}} ></View>
-        <View style={{ width:130,height:130, backgroundColor:'orange'}} ></View>
-        <View style={{ width:200,height:200, backgroundColor:'blue'}} ></View>
+      <View
+        style={{
+          flexWrap: 'wrap',
+          flex: 1,
+          justifyContent: 'space-between',
+          flexDirection: 'column',
+        }}>
+        <Text>App JS is Great1</Text>
+        <View style={{width: 150, height: 130, backgroundColor: 'red'}}></View>
+        <View
+          style={{width: 130, height: 130, backgroundColor: 'orange'}}></View>
+        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}></View>
       </View>
-    )
+    );
   }
 }
 
 const styles = StyleSheet.create({
   ButtonStyle: {
     fontSize: 30,
-    fontWeight: 'bold'
-  }
-})
+    fontWeight: 'bold',
+  },
+});
 export default App;
