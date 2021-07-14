@@ -19,11 +19,27 @@ class App extends React.Component {
           justifyContent: 'space-between',
           flexDirection: 'column',
         }}>
-        <View style={{width: 150, height: 130, backgroundColor: 'red'}} />
         <View
           style={{
             width: '100%',
-            height: '40%',
+            flex: 1,
+            backgroundColor: 'red',
+            justifyContent: 'center',
+          }}>
+          <Image
+            source={require('./images/c.png')}
+            style={{
+              width: '90%',
+              height: '90%',
+              alignSelf: 'center',
+              resizeMode: 'cover',
+            }}
+          />
+        </View>
+        <View
+          style={{
+            width: '100%',
+            flex: 1,
             backgroundColor: 'yellow',
             justifyContent: 'center',
           }}>
@@ -37,8 +53,14 @@ class App extends React.Component {
             }}
           />
         </View>
-        <View style={{width: '100%', height: '30%', backgroundColor: 'blue',justifyContent: 'center',}}>
-        <Image
+        <View
+          style={{
+            width: '100%',
+            flex: 1,
+            backgroundColor: 'blue',
+            justifyContent: 'center',
+          }}>
+          <Image
             source={require('./images/b.jpg')}
             style={{
               width: '90%',
