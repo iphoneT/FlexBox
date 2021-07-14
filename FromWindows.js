@@ -12,6 +12,7 @@ class FromWindows extends React.Component {
 
         <Text>Good Night</Text>
         <Text>PHP</Text>
+        <Text>React Native</Text>
       </View>
     );
   }
