@@ -6,7 +6,7 @@ class Mac extends React.Component {
   render() {
     return (
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
-        <Text>iOS Great one Android 123</Text>
+        <Text>iOS Great one Android 123a</Text>
       </View>
     )
   }
