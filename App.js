@@ -14,7 +14,7 @@ class App extends React.Component {
   render() { 
     return (
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
-      <Text>Test 50</Text>
+      <Text>App JS is Great</Text>
         <View style={{ width:150,height:130, backgroundColor:'red'}} ></View>
         <View style={{ width:130,height:130, backgroundColor:'orange'}} ></View>
         <View style={{ width:200,height:200, backgroundColor:'blue'}} ></View>
