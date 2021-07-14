@@ -31,7 +31,9 @@ class App extends React.Component {
             }}
           />
         </View>
-        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}></View>
+        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}>
+        <Image source={require('./images/b.jpg')}/>
+        </View>
       </View>
     );
   }
