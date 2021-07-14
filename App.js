@@ -37,8 +37,16 @@ class App extends React.Component {
             }}
           />
         </View>
-        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}>
-          <Image source={require('./images/b.jpg')} />
+        <View style={{width: '100%', height: '30%', backgroundColor: 'blue',justifyContent: 'center',}}>
+        <Image
+            source={require('./images/b.jpg')}
+            style={{
+              width: '90%',
+              height: '90%',
+              alignSelf: 'center',
+              resizeMode: 'cover',
+            }}
+          />
         </View>
       </View>
     );
