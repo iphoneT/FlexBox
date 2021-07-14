@@ -12,7 +12,7 @@ class FromWindows extends React.Component {
         <Text>From Windows testing hello android</Text>
         <Text>From Windows testing hello android</Text>
         <Text>From Windows testing hello android</Text>
-        <Text>From Windows testing hello android1</Text>
+        <Text>From Windows testing hello okokokokok</Text>
       </View>
     );
   }
