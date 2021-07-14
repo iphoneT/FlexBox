@@ -6,7 +6,7 @@ class Mac extends React.Component {
   render() {
     return (
       <View style={{ flexWrap: 'wrap',flex: 1, justifyContent:'space-between',flexDirection:'column' }}>
-        <Text>From Mac testing 111222 iOS Great</Text>
+        <Text>iOS Great</Text>
       </View>
     )
   }
