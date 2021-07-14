@@ -32,7 +32,7 @@ class App extends React.Component {
               width: '90%',
               height: '90%',
               alignSelf: 'center',
-              resizeMode: 'cover',
+              resizeMode: 'contain',
             }}
           />
         </View>
