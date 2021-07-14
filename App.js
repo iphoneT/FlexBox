@@ -19,6 +19,7 @@ class App extends React.Component {
           justifyContent: 'space-between',
           flexDirection: 'column',
         }}>
+<<<<<<< HEAD
         <View style={{width: 150, height: 130, backgroundColor: 'red'}} />
         <View style={{width: 130, height: 130, backgroundColor: 'yellow'}}>
           <Image
@@ -32,6 +33,15 @@ class App extends React.Component {
           />
         </View>
         <View style={{width: 200, height: 200, backgroundColor: 'blue'}}></View>
+=======
+        <View style={{width: 150, height: 130, backgroundColor: 'red'}}></View>
+        <View
+          style={{width: 130, height: 130, backgroundColor: 'yellow'}}>
+          </View>
+        <View style={{width: 200, height: 200, backgroundColor: 'blue'}}>
+        <Image source={require('./images/b.jpg')} />
+        </View>
+>>>>>>> ee36d5a3a84dc69703c1e66ebbe4a69f1fa9a95d
       </View>
     );
   }
