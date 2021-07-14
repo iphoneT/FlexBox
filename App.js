@@ -21,7 +21,7 @@ class App extends React.Component {
         }}>
         <View style={{width: 150, height: 130, backgroundColor: 'red'}}></View>
         <View
-          style={{width: 130, height: 130, backgroundColor: 'orange'}}></View>
+          style={{width: 130, height: 130, backgroundColor: 'pink'}}></View>
         <View style={{width: 200, height: 200, backgroundColor: 'blue'}}></View>
       </View>
     );
